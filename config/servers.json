@@ -1,0 +1,90 @@
+{
+    "doh_servers": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ip": "8.8.8.8",
+            "description": "Google Public DNS DoH服务器"
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ip": "1.1.1.1",
+            "description": "Cloudflare DoH服务器"
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-query",
+            "ip": "9.9.9.9",
+            "description": "Quad9 DoH服务器"
+        },
+        {
+            "name": "AliDNS",
+            "url": "https://dns.alidns.com/dns-query",
+            "ip": "223.5.5.5",
+            "description": "阿里云公共DNS DoH服务器"
+        }
+    ],
+    "dot_servers": [
+        {
+            "name": "Google",
+            "host": "dns.google",
+            "ip": "8.8.8.8",
+            "port": 853,
+            "description": "Google Public DNS DoT服务器"
+        },
+        {
+            "name": "Cloudflare",
+            "host": "cloudflare-dns.com",
+            "ip": "1.1.1.1",
+            "port": 853,
+            "description": "Cloudflare DoT服务器"
+        },
+        {
+            "name": "Quad9",
+            "host": "dns.quad9.net",
+            "ip": "9.9.9.9",
+            "port": 853,
+            "description": "Quad9 DoT服务器"
+        }
+    ],
+    "traditional_dns_servers": [
+        {
+            "name": "Google",
+            "ip": "8.8.8.8",
+            "port": 53,
+            "description": "Google Public DNS"
+        },
+        {
+            "name": "Cloudflare",
+            "ip": "1.1.1.1",
+            "port": 53,
+            "description": "Cloudflare DNS"
+        },
+        {
+            "name": "Quad9",
+            "ip": "9.9.9.9",
+            "port": 53,
+            "description": "Quad9 DNS"
+        }
+    ],
+    "test_domains": [
+        "example.com",
+        "google.com",
+        "github.com",
+        "cloudflare.com",
+        "wikipedia.org",
+        "baidu.com",
+        "amazon.com",
+        "microsoft.com",
+        "apple.com",
+        "twitter.com"
+    ],
+    "page_load_test_urls": [
+        "https://example.com",
+        "https://www.google.com",
+        "https://www.github.com",
+        "https://www.wikipedia.org",
+        "https://www.baidu.com"
+    ]
+}

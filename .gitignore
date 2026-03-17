@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest
+.pytest_cache/
+
+# 实验结果（可由程序重新生成）
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 论文PDF（版权文件不上传）
+*.pdf
+
+# Conda/虚拟环境
+.conda/
+.venv/
+venv/
