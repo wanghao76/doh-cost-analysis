@@ -1,0 +1,5 @@
+server_name,server_url,supports_post,supports_get,supports_wire_format,supports_http2,content_type_correct,cache_control_present,supports_padding,status_code,error_message
+Google,https://dns.google/dns-query,True,True,True,True,True,True,True,200,
+Cloudflare,https://cloudflare-dns.com/dns-query,True,True,True,True,True,False,True,200,
+Quad9,https://dns.quad9.net/dns-query,True,True,True,True,True,True,False,200,
+AliDNS,https://dns.alidns.com/dns-query,True,True,True,True,True,True,False,200,
