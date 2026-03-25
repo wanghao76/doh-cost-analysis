@@ -11,18 +11,18 @@
 
 ### 1.1 硬件环境
 
-| 项目 | 配置 |
+| 组件 | 配置 |
 |------|------|
-| 处理器 | Intel Core (第14代, Family 6 Model 197), 64位 |
-| 操作系统 | Windows 10 (Build 10.0.26100) |
-| 网络环境 | 中国大陆家庭宽带，经 NAT 出口访问公网 DNS |
+| CPU | Intel Core Ultra9 285h, 64位 |
+| OS | Windows 11 |
+| Network | polyu wifi |
 
 ### 1.2 软件环境
 
 | 组件 | 版本 |
 |------|------|
 | Python | 3.10.20 (Anaconda) |
-| Conda 环境 | doh_study |
+| Conda  | doh_study |
 | dnspython | 2.8.0 |
 | httpx | 0.28.1 (含 HTTP/2 支持) |
 | h2 | 4.3.0 |
